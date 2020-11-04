@@ -1,6 +1,8 @@
-# Intégration continue Gitlab
+# Gitlab CI/CD
 
-Gitlab permet de gérer l'intégration et le déploiement continue du projet en ajoutant le fichier de configuration **.gitlab-ci.yml** au répertoire racine du dépôt Git.
+Gitlab permet de gérer l'intégration et le déploiement continue (CI/CD) du projet en ajoutant le fichier de configuration **.gitlab-ci.yml** au répertoire racine du dépôt Git
+- **Continuous Integration** : vérifier à chaque modification de code source que le résultat des modifications ne produit pas de régression dans l’application développée (tester de manière automatisée)
+- **Continuous Delivery** : livrer chaque modification apporté au logiciel directement aux utilisateurs finaux sans intervention humaine
 
 ## Configuration de .gitlab-ci.yml
 
